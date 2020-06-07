@@ -1,0 +1,110 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+#index {
+    background: rgb(10, 10, 54);
+    font-family: 'Luckiest Guy', cursive;
+}
+
+html{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:baseline;
+    text-align:center;
+    background: #F0FFFF;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    
+}
+
+nav li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+img {
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0em;
+    max-width: 90%;
+}
+
+section{
+    margin: 0.5em;
+}
+
+.start {
+    color: #ffffff;
+    text-decoration: none;
+    background-color:  rgb(250, 201, 109); 
+    text-align: center;
+    border-radius: 1em;
+    padding: 0.35em;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+    
+
+.start:hover {
+    background-color:orange;
+}
+
+label {
+    float: left;
+    clear:right;
+    padding: 0.25em;   /* 0.15em; */
+    margin: 0.35em;
+    text-align: left;
+}
+                
+input {
+    float: left;
+    clear: left;
+    padding: auto;   
+    margin: 1em;
+} 
+
+fieldset{
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    
+button{
+    float:right;
+    clear: right;
+    padding: auto;
+    margin: 1em;
+}
+
+#hidden{
+    display: none;
+}
+
+#rules{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 2.5em;
+
+}
+
+#reg{
+	display:flex;
+    flex-direction:column;
+    margin-right: auto;
+    margin-left: auto;
+    width:30%;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+}
